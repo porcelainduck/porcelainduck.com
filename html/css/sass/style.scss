@@ -1,0 +1,228 @@
+// Imports
+@import "boilerplate";
+
+// Site specific stuff
+
+$serif: "Merriweather", Georgia, serif;
+$white: #fffff6;
+
+body {
+	background: url(../img/bg.png) repeat top left;
+	color: $white;
+	font-family: $serif;
+}
+
+h4 {
+	font-family: "Merriweather", serif;
+	
+}
+
+a, a:hover {
+	color: $white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.headerCont {
+	background: url(../img/bg-header.jpg) no-repeat center bottom;
+	height: 275px;
+	//background-size: cover;
+}
+
+.logo {
+	float: right;
+	margin: 80px 11.2% 0 0;
+	
+	a {
+		display: block;
+		width: 136px;
+		height: 136px;
+		opacity: .75;
+		background: url(../img/logo.png) no-repeat center;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		
+		&:hover {
+			opacity: .85;
+		}
+	}
+}
+
+.mainCont {
+//	-webkit-box-shadow: inset 0px 8px 8px -5px rgba(0, 0, 0, .5);
+//	box-shadow: inset 0px 8px 8px -5px rgba(0, 0, 0, .5);
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.entry-title a {
+	color: $white;
+	text-decoration: none;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+p {
+	font-size: 22px;
+	line-height: 1.73;
+	font-weight: 300;
+}
+
+.excerpt {
+	margin: 0 0 60px;
+}
+
+.inside {
+	img {
+		opacity: .8;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		border-radius: 3px;
+		
+		&:hover {
+			opacity: .95;
+		}
+	}
+}
+
+.inside:hover {
+//	img {opacity: .95;}
+}
+
+#comments {
+	margin-top: 60px;
+}
+
+//sidebar
+
+.titlelink {
+	text-decoration: none;
+	//margin-top: 15px;
+	display: inline-block;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.row .threecol.sidebar {
+	float: right;
+	width: 26%;
+}
+
+//fuck yeah cats
+.cats {
+	li {
+		display: inline-block;
+		margin: 6px 6px 14px 0;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #333;
+		background-color: $white;
+		opacity: .85;
+		padding: 5px 8px;
+		border-radius: 2px;
+		text-transform: lowercase;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+//footer
+
+.footerCont {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+// WP stuff //
+
+img {
+	margin: 20px 0;
+}
+
+
+//mobile stuff
+.mhide {
+	display: block;
+}
+
+.mshow {
+	display: none;
+}
+	
+//media queries
+
+@media only screen and (min-width: 871px) and (max-width: 1023px) {
+
+
+}
+
+@media only screen and (max-width: 870px) {
+	
+.headerCont {
+	height: 224px;
+}	
+	
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+	width: 136px;
+	float: none;
+}
+
+.excerpt {
+	display: none;
+}
+
+.entry-title {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.inside {
+	img {
+		max-width: 100%;
+	}
+}
+
+.row .threecol.sidebar {
+	width: auto;
+	float: left;
+}
+
+.mhide {
+	display: none;
+}
+
+.mshow {
+	display: block;
+}
+
+}
