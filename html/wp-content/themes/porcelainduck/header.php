@@ -10,7 +10,17 @@
 | $$     | $$  | $$| $$      | $$      | $$_____/| $$ /$$__  $$| $$| $$  | $$      | $$  | $$| $$  | $$| $$      | $$_  $$ 
 | $$     |  $$$$$$/| $$      |  $$$$$$$|  $$$$$$$| $$|  $$$$$$$| $$| $$  | $$      | $$$$$$$/|  $$$$$$/|  $$$$$$$| $$ \  $$
 |__/      \______/ |__/       \_______/ \_______/|__/ \_______/|__/|__/  |__/      |_______/  \______/  \_______/|__/  \__/
-                                                                                                                                                                                                                                              
+ 
+              _.._
+             /   a\__,
+             \  -.___/
+              \  \
+         (\____)  \
+     |\_(         ))
+_____|   (_        /________
+     _\____(______/__
+          ______
+                                                                                                                                                                                                                                             
 -->
 
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -26,7 +36,7 @@
 	<link rel="stylesheet" href="/css/1140.css">
 	<link rel="stylesheet" href="/css/style.css">
 	
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico">
 	
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700' rel='stylesheet' type='text/css'>
 	
@@ -34,7 +44,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://porcelainduck.com/">
 	<meta property="og:image" content="http://porcelainduck.com/img/og.png">
-	<meta property="og:description" content="Join the conversation about Nova Centre to shape your city centre!">
+	<meta property="og:description" content="A blog about the Internet and things">
 	
 	<script src="/js/libs/modernizr-2.6.1.min.js"></script>
 	

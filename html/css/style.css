@@ -335,6 +335,11 @@ h1 {
   font-size: 36px;
   margin-bottom: 20px; }
 
+h2 {
+  font-weight: normal;
+  font-size: 28px;
+  margin-bottom: 10px; }
+
 .entry-title a {
   color: #fffff6;
   text-decoration: none; }
@@ -344,20 +349,21 @@ h1 {
 p {
   font-size: 22px;
   line-height: 1.73;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: 0 0 30px; }
 
 .excerpt {
   margin: 0 0 60px; }
 
 .inside img {
-  opacity: .8;
+  opacity: .9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  border-radius: 3px; }
+  border-radius: 2px; }
   .inside img:hover {
-    opacity: .95; }
+    opacity: .99; }
 
 #comments {
   margin-top: 60px; }
@@ -370,7 +376,8 @@ p {
 
 .row .threecol.sidebar {
   float: right;
-  width: 26%; }
+  width: 26%;
+  padding-top: 30px; }
 
 .cats li {
   display: inline-block;
